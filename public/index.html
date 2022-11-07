@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/blog.css">    
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="page-header">
+          <p class="logo">Photographer</p>
+          <div class="header-contacts">
+              <a href="#contacts" class="application-form-button">Contuct me</a>
+          </div>
+
+      </div>
+    </header>
+    <main class="main">
+        <div >
+          <section id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/photo_1.jpg" class="d-block carousel-photo" alt="photo_1">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, incidunt.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img\photo_2.jpg" class="d-block carousel-photo" alt="photo_2">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, incidunt.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img\photo_3.jpg" class="d-block carousel-photo" alt="photo_3">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, incidunt.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+        <section class="about-me container">
+            <div class="about-me-description">
+                <h2 class="about-me-description-header">Lorem ipsum dolor sit.</h2>
+                <p class="about-me-description-txt"> <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Aut sit atque ex accusamus veritatis! Provident amet, excepturi incidunt quae ea sequi laboriosam aliquid dolore. Officia harum voluptatum dicta eligendi beatae!
+                Id nam, suscipit a aperiam fugit sint ipsam sapiente. Molestias placeat quae porro non et quibusdam enim vero molestiae quis consectetur error accusantium, impedit quaerat modi vel possimus ipsam? Temporibus!</p>
+            </div>
+                <img class="about-me-image" src="img/portrait.png" alt="portrait">
+        </section>
+        <section class="portfolio">
+          <photo ref="photo"></photo>
+          <bigphoto ref="bigphoto"></bigphoto>
+        </section>
+        <section class="blog container">
+          <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+              <h1 class="display-4 fst-italic">Lorem ipsum dolor sit amet.</h1>
+              <p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur libero esse eum unde numquam, aliquid rerum, obcaecati ratione blanditiis culpa odio reprehenderit provident voluptate at cum enim fuga molestias laborum.</p>
+              <p class="lead mb-0 show-post"><a class="text-white fw-bold">Continue reading...</a></p>
+              <p class="lead my-3 hidden hidden-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur libero esse eum unde numquam, aliquid rerum, obcaecati ratione blanditiis culpa odio reprehenderit provident voluptate at cum enim fuga molestias laborum.</p>
+            </div>
+          </div>
+        
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">Header</strong>
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">October</div>
+                  <p class="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis deserunt nemo?</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Picture</text></svg>
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Header</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">September</div>
+                  <p class="mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit cumque praesentium?</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Picture</text></svg>
+        
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <h4 class="fst-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">August 2022</a></li>
+              <li><a href="#">July 2022</a></li>
+              <li><a href="#">June 2022</a></li>
+              <li><a href="#">May 2022</a></li>
+              <li><a href="#">April 2022</a></li>
+              <li><a href="#">March 2022</a></li>
+              <li><a href="#">February 2022</a></li>
+              <li><a href="#">January 2022</a></li>
+            </ol>
+          </div>
+        </section>
+        <section id="contacts" class="contact-me">
+          <div class="contact-me-wrp container">
+            <h1 class="contact-me-txt">Contact me</h1>
+          <h3 class="contact-me-txt">+7 (999) 555-55-55</h3>
+          <a class="contact-me-whatsapp" href="whatsapp://send?phone=79032380080">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.6013 2.32644C12.1074 0.824899 10.1154 0 7.99428 0C3.62651 0 0.0684247 3.55809 0.0646233 7.92587C0.0646233 9.32478 0.429555 10.6857 1.1214 11.8907L0 16L4.20432 14.8976C5.36373 15.5286 6.6676 15.8632 7.99428 15.8632H7.99808C12.3659 15.8632 15.9239 12.3051 15.9277 7.93348C15.9239 5.81611 15.099 3.82419 13.6013 2.32644ZM7.99428 14.5213C6.80826 14.5213 5.64884 14.2019 4.63767 13.6013L4.39819 13.4569L1.90449 14.1107L2.56973 11.6778L2.41387 11.4269C1.75243 10.3778 1.40651 9.16512 1.40651 7.92207C1.40651 4.29556 4.36397 1.33809 7.99808 1.33809C9.75812 1.33809 11.4117 2.02613 12.6586 3.26919C13.9016 4.51604 14.5859 6.16964 14.5859 7.92968C14.5821 11.5676 11.6246 14.5213 7.99428 14.5213ZM11.6094 9.58708C11.4117 9.48824 10.4386 9.00927 10.2561 8.94084C10.0736 8.87622 9.94059 8.84201 9.81134 9.03968C9.67829 9.23735 9.29815 9.68591 9.18411 9.81516C9.07007 9.94821 8.95223 9.96341 8.75456 9.86458C8.55689 9.76574 7.91825 9.55667 7.16178 8.88002C6.57257 8.35543 6.17723 7.70539 6.05938 7.50772C5.94534 7.31005 6.04798 7.20361 6.14682 7.10478C6.23425 7.01734 6.34449 6.87289 6.44332 6.75885C6.54216 6.64481 6.57637 6.56118 6.64099 6.42813C6.70562 6.29508 6.67521 6.18104 6.62579 6.08221C6.57637 5.98337 6.18103 5.00642 6.01377 4.61107C5.85411 4.22333 5.69065 4.27655 5.56901 4.27275C5.45497 4.26515 5.32192 4.26515 5.18887 4.26515C5.05582 4.26515 4.84295 4.31456 4.66048 4.51224C4.47801 4.70991 3.96863 5.18888 3.96863 6.16584C3.96863 7.14279 4.67949 8.08173 4.77832 8.21478C4.87716 8.34783 6.17343 10.3474 8.16154 11.2065C8.63291 11.4117 9.00165 11.5334 9.29055 11.6246C9.76572 11.7767 10.1953 11.7539 10.5374 11.7044C10.9175 11.6474 11.7082 11.2255 11.8755 10.7617C12.0389 10.2979 12.0389 9.90259 11.9895 9.81896C11.9401 9.73533 11.8071 9.68591 11.6094 9.58708Z"/>
+              </svg> 
+              <p>whatsapp</p>
+          </a>
+          <a class="contact-me-telegramm" href="tg://resolve?domain=EBoyarskaya">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8ZM8.28672 5.90599C7.50861 6.22963 5.95346 6.8995 3.6213 7.91558C3.2426 8.06618 3.04421 8.21351 3.02615 8.35757C2.99563 8.60103 3.30052 8.6969 3.71569 8.82745C3.77216 8.8452 3.83068 8.8636 3.89067 8.8831C4.29913 9.01588 4.84859 9.17121 5.13423 9.17738C5.39334 9.18298 5.68253 9.07616 6.0018 8.85692C8.18081 7.38603 9.30563 6.64258 9.37625 6.62655C9.42607 6.61524 9.49511 6.60102 9.54188 6.6426C9.58866 6.68418 9.58406 6.76291 9.57911 6.78404C9.5489 6.9128 8.35212 8.02543 7.73279 8.60121C7.53971 8.78071 7.40276 8.90804 7.37476 8.93712C7.31204 9.00226 7.24812 9.06388 7.18669 9.1231C6.80722 9.48891 6.52265 9.76324 7.20245 10.2112C7.52913 10.4265 7.79055 10.6045 8.05134 10.7821C8.33616 10.9761 8.62023 11.1695 8.98778 11.4105C9.08142 11.4718 9.17086 11.5356 9.25796 11.5977C9.58942 11.834 9.88721 12.0463 10.2551 12.0124C10.4689 11.9928 10.6897 11.7918 10.8018 11.1923C11.0668 9.77545 11.5878 6.70567 11.7082 5.44069C11.7187 5.32986 11.7055 5.18802 11.6948 5.12576C11.6842 5.06349 11.6619 4.97478 11.581 4.90911C11.4851 4.83133 11.3371 4.81493 11.2709 4.8161C10.9701 4.8214 10.5084 4.98192 8.28672 5.90599Z"/>
+              </svg>
+              <p>telegramm</p> 
+          </a>
+          <a class="contact-me-mail" href="mailto:mail@mail.ru">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 4C0 2.89543 0.895431 2 2 2H14C15.1046 2 16 2.89543 16 4V12C16 13.1046 15.1046 14 14 14H2C0.895431 14 0 13.1046 0 12V4ZM2 3C1.44772 3 1 3.44772 1 4V4.2169L8 8.4169L15 4.2169V4C15 3.44772 14.5523 3 14 3H2ZM15 5.3831L10.2919 8.20794L15 11.1052V5.3831ZM14.9662 12.2586L9.32583 8.7876L8 9.5831L6.67417 8.7876L1.03376 12.2586C1.14774 12.6855 1.53715 13 2 13H14C14.4628 13 14.8523 12.6855 14.9662 12.2586ZM1 11.1052L5.70808 8.20794L1 5.3831V11.1052Z"/>
+            </svg>
+            <p>mail@mail.ru</p></a>
+          </div>
+        </section>
+        </div>
+    </main>
+    <footer class="webpage-footer container">
+      <div class="webpage-footer-copyriht-wrp">
+        <p class="webpage-footer-copyriht">&#169 All rights reserved</p>
+      </div>
+      <div class="social-networcs-icon">
+          <a href="https://www.facebook.com/" target="blank" class="social-networcs-icon-button">
+              <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.08836 8.28L8.50686 5.61602H5.89022V3.88729C5.89022 3.15847 6.25574 2.44806 7.42765 2.44806H8.61722V0.179975C8.61722 0.179975 7.53772 0 6.50561 0C4.35073 0 2.9422 1.27593 2.9422 3.5857V5.61602H0.546875V8.28H2.9422V14.72H5.89022V8.28H8.08836Z" fill="black"/>
+                  </svg>
+          </a>
+          <a href="https://www.instagram.com/" target="blank" class="social-networcs-icon-button">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.13897 3.68159C6.02383 3.68159 4.31774 5.38491 4.31774 7.49663C4.31774 9.60835 6.02383 11.3117 8.13897 11.3117C10.2541 11.3117 11.9602 9.60835 11.9602 7.49663C11.9602 5.38491 10.2541 3.68159 8.13897 3.68159ZM8.13897 9.9769C6.77211 9.9769 5.65467 8.8646 5.65467 7.49663C5.65467 6.12866 6.76878 5.01636 8.13897 5.01636C9.50915 5.01636 10.6233 6.12866 10.6233 7.49663C10.6233 8.8646 9.50583 9.9769 8.13897 9.9769ZM13.0078 3.52554C13.0078 4.02026 12.6087 4.41538 12.1165 4.41538C11.621 4.41538 11.2252 4.01694 11.2252 3.52554C11.2252 3.03413 11.6243 2.63569 12.1165 2.63569C12.6087 2.63569 13.0078 3.03413 13.0078 3.52554ZM15.5386 4.42866C15.4821 3.23667 15.2094 2.18081 14.3347 1.31089C13.4634 0.440967 12.4058 0.168701 11.2119 0.108936C9.9814 0.039209 6.29321 0.039209 5.0627 0.108936C3.8721 0.165381 2.81453 0.437646 1.93987 1.30757C1.06522 2.17749 0.795836 3.23335 0.735973 4.42534C0.666134 5.65386 0.666134 9.33608 0.735973 10.5646C0.79251 11.7566 1.06522 12.8124 1.93987 13.6824C2.81453 14.5523 3.86878 14.8246 5.0627 14.8843C6.29321 14.9541 9.9814 14.9541 11.2119 14.8843C12.4058 14.8279 13.4634 14.5556 14.3347 13.6824C15.2061 12.8124 15.4788 11.7566 15.5386 10.5646C15.6085 9.33608 15.6085 5.65718 15.5386 4.42866ZM13.949 11.8828C13.6895 12.5335 13.1874 13.0349 12.5322 13.2972C11.5511 13.6857 9.22314 13.596 8.13897 13.596C7.05479 13.596 4.72348 13.6824 3.74573 13.2972C3.09389 13.0382 2.59171 12.5369 2.32898 11.8828C1.93987 10.9033 2.02967 8.57905 2.02967 7.49663C2.02967 6.41421 1.9432 4.08667 2.32898 3.1105C2.58838 2.45972 3.09056 1.95835 3.74573 1.69604C4.7268 1.30757 7.05479 1.39722 8.13897 1.39722C9.22314 1.39722 11.5545 1.31089 12.5322 1.69604C13.184 1.95503 13.6862 2.4564 13.949 3.1105C14.3381 4.08999 14.2483 6.41421 14.2483 7.49663C14.2483 8.57905 14.3381 10.9066 13.949 11.8828Z" fill="black"/>
+                  </svg>
+              </a>
+          <a href="https://www.pinterest.ru/" target="blank" class="social-networcs-icon-button">
+              <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.74032 0.203125C3.55564 0.203125 0.408203 2.34063 0.408203 5.8C0.408203 8 1.63738 9.25 2.38233 9.25C2.68963 9.25 2.86655 8.3875 2.86655 8.14375C2.86655 7.85313 2.13091 7.23438 2.13091 6.025C2.13091 3.5125 4.03055 1.73125 6.4889 1.73125C8.60271 1.73125 10.1671 2.94062 10.1671 5.1625C10.1671 6.82187 9.50597 9.93437 7.36422 9.93437C6.59133 9.93437 5.93018 9.37187 5.93018 8.56563C5.93018 7.38438 6.74963 6.24062 6.74963 5.02187C6.74963 2.95312 3.835 3.32812 3.835 5.82812C3.835 6.35313 3.90018 6.93437 4.13298 7.4125C3.70463 9.26875 2.82931 12.0344 2.82931 13.9469C2.82931 14.5375 2.91311 15.1188 2.96899 15.7094C3.07452 15.8281 3.02175 15.8156 3.18316 15.7563C4.74757 13.6 4.69169 13.1781 5.3994 10.3562C5.78119 11.0875 6.76826 11.4812 7.55046 11.4812C10.8469 11.4812 12.3275 8.24688 12.3275 5.33125C12.3275 2.22813 9.66427 0.203125 6.74032 0.203125Z" fill="black"/>
+              </svg>
+          </a>
+          <a href="https://twitter.com/" target="blank" class="social-networcs-icon-button">
+              <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.417 3.74052C14.427 3.88264 14.427 4.0248 14.427 4.16692C14.427 8.50192 11.1498 13.4969 5.15986 13.4969C3.31448 13.4969 1.60022 12.9588 0.158203 12.0248C0.420396 12.0552 0.67247 12.0654 0.944752 12.0654C2.46741 12.0654 3.8691 11.5476 4.98843 10.6644C3.5565 10.6339 2.3565 9.68977 1.94305 8.39027C2.14475 8.4207 2.34642 8.44102 2.5582 8.44102C2.85063 8.44102 3.14308 8.40039 3.41533 8.32936C1.92291 8.02477 0.803551 6.70498 0.803551 5.11108V5.07048C1.23715 5.31414 1.74139 5.46642 2.2758 5.4867C1.39849 4.89786 0.823727 3.8928 0.823727 2.75573C0.823727 2.14661 0.985041 1.58823 1.26741 1.10092C2.87077 3.09077 5.28086 4.39023 7.98334 4.53239C7.93293 4.28873 7.90266 4.03495 7.90266 3.78114C7.90266 1.97402 9.35477 0.501953 11.1598 0.501953C12.0976 0.501953 12.9446 0.897891 13.5396 1.53748C14.2757 1.39536 14.9816 1.12123 15.6068 0.745609C15.3648 1.50705 14.8505 2.14664 14.1749 2.5527C14.8304 2.48167 15.4657 2.29889 16.0505 2.04511C15.6069 2.69483 15.0522 3.27348 14.417 3.74052Z" fill="black"/>
+              </svg>
+          </a>
+      </div>
+    </footer>
+  </div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/Photocards.js"></script>
+  <script src="js/BigPhoto.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

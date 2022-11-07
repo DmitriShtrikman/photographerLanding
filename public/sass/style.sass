@@ -157,6 +157,7 @@ $font-color: #FFFFFF
     font-size: 50px
     color: $font-color
     margin: 0.7rem auto
+    text-align: center
 
 .portfolio-mosaic
     margin: 20px 25px 0 25px
@@ -167,8 +168,8 @@ $font-color: #FFFFFF
 
 .portfolio-mosaic-preview
     width: 200px
+    max-height: 125px
     height: auto
-    border: 3px solid white
     box-shadow: 8px 6px 10px rgba(0,0,0,0.5)
     margin: 0 0 12px 0
 
@@ -190,7 +191,7 @@ $font-color: #FFFFFF
     align-items: center
 
 .portfolio-mosaic-img
-    width: 85%
+    width: 100%
     height: auto
     position: fixed
     margin: 0px auto
@@ -213,30 +214,6 @@ $font-color: #FFFFFF
     cursor: pointer
     transition: linear 0.2s
 
-#pop-up-1:target
-    display: flex
-#pop-up-2:target
-    display: flex
-#pop-up-3:target
-    display: flex
-#pop-up-4:target
-    display: flex
-#pop-up-5:target
-    display: flex
-#pop-up-6:target
-    display: flex
-#pop-up-7:target
-    display: flex
-#pop-up-8:target
-    display: flex
-#pop-up-9:target
-    display: flex
-#pop-up-10:target   
-    display: flex
-#pop-up-11:target
-    display: flex
-#pop-up-12:target
-    display: flex
 
 /* Contact-me */
 
@@ -461,13 +438,14 @@ $font-color: #FFFFFF
     .about-me-description-txt
         margin: 0 20px 0 20px
 
-@media screen and ( max-width: 460px )
+@media screen and ( max-width: 480px )
     .portfolio-header
         font-size: 38px
     .portfolio-mosaic
         flex-direction: column
     .portfolio-mosaic-preview
         width: 200px*1.5
+        max-height: 125px*1.5
 @media screen and (max-width: 700px)
     .portfolio-mosaic-item svg
         top: 3%
